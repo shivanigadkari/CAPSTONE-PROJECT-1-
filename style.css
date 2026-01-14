@@ -1,0 +1,136 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Hero Section */
+
+.hero {
+  background: url("images/hero-bg.png") no-repeat center center/cover;
+  color: black;
+  font-family:Dancing Script,cursive;
+  font-style: italic;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero .profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  padding: 8px;
+  background: #fbc2eb; /* pastel pink frame */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Link Styles */
+a {
+  color: #ff69b4; /* hot pink */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a6c1ee; /* lavender hover */
+  transition: color 0.3s ease;
+}
+
+/* Navbar */
+.navbar {
+  background: plum;
+  padding: 1rem;
+  text-align: center;
+  font-family:cursive;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+/* Sections */
+.section {
+  padding: 3rem 2rem;
+
+  margin: auto;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  color: palevioletred;
+}
+/* Resume Section */
+.resume {
+  background-color: #ffe4ec; /* soft blush pink */
+  font-family: 'Pacifico', cursive; /* elegant cursive headings */
+}
+
+/* Projects Section */
+.projects {
+  background-color: #e6f7ff; /* pastel blue */
+  font-family: 'Pacifico', sans-serif; /* clean modern font */
+}
+
+/* About Me Section */
+.about {
+  background-color: #f0fff0; /* mint green */
+  font-family: 'Sacramento', cursive; /* stylish cursive */
+  font-size: x-large;  
+}
+
+/* Contact Section */
+.contact {
+  background-color: #fff0f5; /* lavender blush */
+  font-family: 'Sacramento', cursive; /* playful cursive */
+  font-size:x-large;
+}
+
+/* Projects */
+.project {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+.contact a {
+  color: #4facfe;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: plum;
+  color:hotpink;
+  text-align: center;
+  font-family: cursi;
+  padding: 1rem;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
